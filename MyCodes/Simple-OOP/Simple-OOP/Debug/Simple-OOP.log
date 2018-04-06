@@ -1,0 +1,3 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: промежуточный каталог (Debug\) содержит файлы, которые используются совместно с другим проектом (OOP Exercises.vcxproj, Simple-OOP.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+  Circle.cpp
+  Simple-OOP.vcxproj -> C:\Users\diasz\source\repos\Simple-OOP\Debug\1.1.exe
