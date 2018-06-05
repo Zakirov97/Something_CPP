@@ -45,7 +45,7 @@ void deleteFromTree(Node *root, int x) {
 		if (root->left) {
 			if (root->left->value == x) {
 				Node *temp = nullptr;
-				if(root->left->left){
+				if (root->left->left) {
 					temp = root->left->left;
 				}
 				if (root->left->right) {
@@ -98,8 +98,8 @@ void displayTreeByBFS(Node *root, int depth) {
 		cout << root->right->value;
 	}
 	if (root->left) {
-		if(depth == 0)
-		displayTreeByBFS(root->left, depth + 1);
+		if (depth == 0)
+			displayTreeByBFS(root->left, depth + 1);
 	}
 	if (root->right) {
 		if (depth == 0)

@@ -9,6 +9,8 @@ void Drob::setX(int _x)
 
 void Drob::setY(int _y)
 {
+	if(_y == 0)
+		throw exception("Divide by zero")
 	y = _y;
 }
 
